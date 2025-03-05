@@ -18,7 +18,8 @@
   "packageManager": "pnpm@9.15.4",
   "type": "module",
   "files": [
-    "dist"
+    "dist",
+    "src"
   ],
   "main": "./dist/tldraw-vue.js",
   "module": "./dist/tldraw-vue.js",
