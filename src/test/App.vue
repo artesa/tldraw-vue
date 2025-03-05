@@ -1,12 +1,12 @@
 <template>
     <!-- <tldraw-wc style="height: 80vh; width: 100%;"></tldraw-wc> -->
     <!-- <tldraw-vue v-model:snapshot="sessionStore"></tldraw-vue> -->
-    <TlDrawVue style="height: 80vh; width: 100%;" :data="sessionStore2"></TlDrawVue>
+    <TldrawVue style="height: 80vh; width: 100%;" :data="sessionStore2"></TldrawVue>
 </template>
 
 <script setup lang="ts">
 import { reactive } from 'vue';
-import TlDrawVue from '../TlDrawVue.vue';
+import TldrawVue from '../TldrawVue.vue';
 import { useLocalStorage } from '@vueuse/core'
 
 const sessionStore = useLocalStorage('tldraw-session', null);

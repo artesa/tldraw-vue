@@ -1,5 +1,5 @@
 import type { App } from "vue";
-import TldrawVue from "./TlDrawVue.vue";
+import TldrawVue from "./TldrawVue.vue";
 
 export default {
   install: (app: App) => {
@@ -8,6 +8,6 @@ export default {
 };
 
 export { TldrawVue };
-export type { FileAssetInfo, ReloadAssetCallback, UploadImageCallback } from './TlDrawVue.vue';
+export type { FileAssetInfo, ReloadAssetCallback, UploadImageCallback } from './TldrawVue.vue';
 
 export * from '@tldraw/tldraw';
