@@ -1,6 +1,6 @@
 {
   "name": "tldraw-vue",
-  "version": "0.0.0",
+  "version": "0.0.1",
   "description": "A vue 3 wrapper for tldraw",
   "scripts": {
     "build": "vite build --emptyOutDir",
